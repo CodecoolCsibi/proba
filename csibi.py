@@ -1,1 +1,1 @@
-print(Szia Jani!)
+print("Szia Jani!")
