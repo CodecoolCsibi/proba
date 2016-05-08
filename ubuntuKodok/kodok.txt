@@ -1,0 +1,62 @@
+sudo : rendszergazdaként tudunk parancsokat végrehajtani
+
+gksu: sudo grafikus megfelelője, grafikus felületű programok beindításához kell használni
+
+Fájl és könyvtárkezelő parancsok:
+pwd: aktuális munkakönyvtár kiírása
+
+ls: aktuális könyvtár tartalmának a listáját készíti el
+
+cd: könyvtárak közti mozgás
+	./ a jelen helyünket nem kell újra begépelni
+
+cd~: home mappába ugrunk
+
+cd ..: egyel feljebb ukrik a mappa struktúrában
+
+cd -: vissza lépés az előző könyvtárba
+
+cp: ezzel lehet másolni
+	pl. cp/file/helye/ahonnan  cp -r/a könyvtár/ahova/akarod másolni
+
+mv: áthelyezés
+	pl. mv a/fájl/helye
+rm: fájlok törlése
+rm -r: mindent töröl a meghatározott helyen
+
+rmdir: üres könyvtár törlése
+
+mkdir: könytár létrehozása
+
+Rendszerinformációs parancsok:
+
+df: csatolt partíciók listázása
+
+du: adott könyvtár tárterület adatokat listázza ki
+	pl.: du a/könyvtár/helye - alkönyvtár adatok
+		du .sh /a/könyvtár/helye - az egény könyvtár adata
+
+free: memóriahaználat kilistázása
+
+cat: adott fájl tartalmának kiírása
+
+Egyéb parancsok:
+
+clear: terminál képernyő tisztítása
+
+halt: rendszer leállítása
+
+reboot: rendszer újraindítása
+
+shutdown -r: újraindítás
+sutdown -h: kikapcs
+
+find: keresés a fájlaink között
+
+wget: letölthetünk vele a netről
+
+apt-get install "csomagnév" (program telepítése)
+
+apt-get remove "csomagnév" (program eltávolítása)
+
+apt-cache search "csomagnév" a csomaglistában)
